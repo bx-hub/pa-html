@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo Sphere Viewer Example</title>
+    <title>场馆全景图</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
 </head>
 <body>
-    <div id="viewer" style="width: 100vw; height: 98vh;"></div>
+    <div id="viewer" style="width: 100vw; height: 100vh;"></div>
 
     <script type="importmap">
         {
@@ -24,7 +24,7 @@
 
         const viewer = new Viewer({
             container: document.querySelector('#viewer'),
-            panorama: 'https://photo-sphere-viewer-data.netlify.app/assets/sphere.jpg',  // 替换为实际的全景图路径
+            panorama: 'https://filckweb.oss-cn-beijing.aliyuncs.com/cc749e0b-2a55-42e5-b618-92444dc8fa72.jpg',  // 替换为实际的全景图路径
         });
     </script>
 </body>
